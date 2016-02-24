@@ -1,0 +1,21 @@
+{
+  "name": "buscador-react",
+  "version": "1.0.0",
+  "description": "Este es un buscador hecho con reactjs que se basa en tiempo real para usar en proyectos",
+  "main": "app.js",
+  "dependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
+    "react": "^0.13.3",
+    "superagent": "^1.7.2"
+  },
+  "scripts": {
+    "build": "browserify app.js > build.js -t babelify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "el git repository"
+  },
+  "author": "fabio gamaliel saracho franco",
+  "license": "ISC"
+}
